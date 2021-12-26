@@ -4,7 +4,7 @@ import 'package:talent_pro/URL/app_constant.dart';
 import '../main.dart';
 
 class URL {
-  static String Main_Url = 'http://127.0.0.1:8000/';
+  static String Main_Url = 'https://faisalkabir.com/talentpro/';
   static String device_type='android';
 
   static String Product_list=Main_Url + 'api/get';

@@ -44,12 +44,12 @@ class ProductData {
     id = json['id'];
     name = json['name'];
     details = json['details'];
-    price = json['price'];
+    price = double.parse(json['price'].toString());
   }
   int? id;
   String? name;
   String? details;
-  int? price;
+  double? price;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
